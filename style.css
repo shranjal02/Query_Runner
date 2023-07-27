@@ -1,0 +1,59 @@
+/* Add styles to the body and header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Add styles for the query input area */
+  textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add styles for the dropdown selector */
+  select {
+    padding: 6px;
+    font-size: 16px;
+  }
+  
+  /* Add styles for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add a bit of spacing to separate elements */
+  div {
+    margin-bottom: 10px;
+  }
+  

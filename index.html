@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SQL Query Runner</title>
+  <!-- Add CSS styling here -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SQL Query Runner</h1>
+  
+  <div>
+    <!-- Space to accept SQL queries -->
+    <textarea id="queryInput" placeholder="Enter your SQL query here..."></textarea>
+    <button onclick="executeQuery()">Execute</button>
+  </div>
+
+  <div>
+    <!-- Dropdown or toggling mechanism to choose queries -->
+    <select id="querySelector" onchange="loadSelectedQuery()">
+      <option value="query1">Query 1</option>
+      <option value="query2">Query 2</option>
+      <!-- Add more query options as needed -->
+    </select>
+  </div>
+
+  <div id="queryResult">
+    <!-- Table to display query results -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
